@@ -21,6 +21,8 @@ body {
 	background-image: -webkit-linear-gradient(bottom right, #FFFFFF 0%, #B6D9F2 100%);
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to top left, #FFFFFF 0%, #B6D9F2 100%);
+
+	font-family: 'Open Sans', sans-serif;
 }
 
 input[name="email"] {
@@ -30,7 +32,7 @@ input[name="email"] {
 }
 
 .hero-unit {
-	background-color: #a0d0f2;
+	background-color: #B9D7EC;
 	text-align: center;
 }
 
@@ -40,4 +42,22 @@ input[name="email"] {
 
 hr {
 	border-top: 1px solid #c5c5c5;
+}
+
+.hero-unit h1 {
+	font-family: 'Nunito', sans-serif;
+}
+
+.hero-unit h1 span#blue {
+	color: #3A688A;
+}
+
+p#early-access {
+	background-color: #A3BDCF;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	padding: 1em;
+	width: 30em;
+	margin: 2em auto -1em auto;
 }

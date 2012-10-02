@@ -1,6 +1,6 @@
 
 function dayDif(currentDate) {
-	var targetDay = new Date('January 01, 2013');
+	var targetDay = new Date('November 20, 2012');
 	return Math.round((targetDay - currentDate)/(1000*60*60*24));
 }
 
