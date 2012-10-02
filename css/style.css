@@ -10,17 +10,17 @@ body {
 	 * */
 	/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
 	/* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(bottom right, #FFFFFF 0%, #B6D9F2 100%);
+	background-image: -ms-linear-gradient(bottom right, #FFFFFF 0%, #84B4D6 100%);
 	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(bottom right, #FFFFFF 0%, #B6D9F2 100%);
+	background-image: -moz-linear-gradient(bottom right, #FFFFFF 0%, #84B4D6 100%);
 	/* Opera */ 
-	background-image: -o-linear-gradient(bottom right, #FFFFFF 0%, #B6D9F2 100%);
+	background-image: -o-linear-gradient(bottom right, #FFFFFF 0%, #84B4D6 100%);
 	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #B6D9F2));
+	background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #84B4D6));
 	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(bottom right, #FFFFFF 0%, #B6D9F2 100%);
+	background-image: -webkit-linear-gradient(bottom right, #FFFFFF 0%, #84B4D6 100%);
 	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to top left, #FFFFFF 0%, #B6D9F2 100%);
+	background-image: linear-gradient(to top left, #FFFFFF 0%, #84B4D6 100%);
 
 	font-family: 'Open Sans', sans-serif;
 }
@@ -32,7 +32,7 @@ input[name="email"] {
 }
 
 .hero-unit {
-	background-color: #B9D7EC;
+	background-color: #CAE9FF;
 	text-align: center;
 }
 
@@ -40,12 +40,29 @@ input[name="email"] {
 	padding-bottom: 2em;
 }
 
+.row {
+}
+
+.padded {
+	padding-left: 1em;
+}
+
+.opaque {
+	background-color: #CAE9FF;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
 hr {
 	border-top: 1px solid #c5c5c5;
 }
 
 .hero-unit h1 {
 	font-family: 'Nunito', sans-serif;
+	text-shadow: 1px 1px 1px #000;
 }
 
 .hero-unit h1 span#blue {
@@ -53,11 +70,17 @@ hr {
 }
 
 p#early-access {
-	background-color: #A3BDCF;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
 	border-radius: 14px;
+
+	background-color: #A3BDCF;
 	padding: 1em;
 	width: 30em;
 	margin: 2em auto -1em auto;
+}
+
+.line-right {
+	border-right: 1px solid #c5c5c5;
+	margin-right: -1px;
 }
