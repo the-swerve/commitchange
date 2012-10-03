@@ -32,7 +32,7 @@ input[name="email"] {
 }
 
 .hero-unit {
-	background-color: #CAE9FF;
+	background-color: #EFF5FA;
 	text-align: center;
 }
 
@@ -48,7 +48,7 @@ input[name="email"] {
 }
 
 .opaque {
-	background-color: #CAE9FF;
+	background-color: #EFF5FA;
 
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -75,7 +75,7 @@ p#early-access {
 	border-radius: 14px;
 
 	background-color: #A3BDCF;
-	padding: 1em;
+	padding: 0.6em;
 	width: 30em;
 	margin: 2em auto -1em auto;
 }
